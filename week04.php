@@ -2,7 +2,7 @@
   <article>
 
     <div class="title">
-      <h1>Week 4 Power Coding Session</h1>
+      <h1>Week 04 Power Coding Session</h1>
 
       <div class="clearfix"></div>
 

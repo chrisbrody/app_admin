@@ -3,7 +3,7 @@
 
     <!-- Title -->
     <div class="title">
-      <h1>Week 12 - Week 16 Power Coding Session</h1>
+      <h1>Week 12 - 16 Power Coding Session</h1>
 
       <div class="clearfix"></div>
 
@@ -28,6 +28,10 @@
         </p>  
       </div>    
     </div>
+
+    <div class="clearfix"></div>
+
+    <hr>
 
     <!-- Power Coding Session Objectives -->
     <div class="sessionObjectives">

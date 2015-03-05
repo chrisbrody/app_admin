@@ -16,7 +16,6 @@
     
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/style-responsive.css" rel="stylesheet">
 
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,13 +33,13 @@
       *********************************************************************************************************************************************************** -->
       <!--header start-->
       <header class="header black-bg">
-              <div class="sidebar-toggle-box">
-                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-              </div>
-            <!--logo start-->
-            <a href="index.php" class="logo"><b>CODIFY ACADEMY</b></a>
-            <!--logo end-->
-        </header>
+        <div class="sidebar-toggle-box">
+          <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.php" class="logo"><b>CODIFY ACADEMY</b></a>
+        <!--logo end-->
+      </header>
       <!--header end-->
       
       <!-- **********************************************************************************************************************************************************
@@ -171,7 +170,7 @@
                     <div class="col-md-4">
                       <!-- week 2 -->
                       <div class="weekBox">
-                        <h3>Week 2</h3>   
+                        <h3><a href="#week2" data-toggle="tab">Week 2</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -189,7 +188,7 @@
                     <div class="col-md-4">
                       <!-- week 3 -->
                       <div class="weekBox">
-                        <h3>Week 3</h3>   
+                        <h3><a href="#week3" data-toggle="tab">Week 3</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -208,7 +207,7 @@
                     <div class="col-md-4">
                       <!-- week 4 -->
                       <div class="weekBox">
-                        <h3>Week 4</h3>   
+                        <h3><a href="#week4" data-toggle="tab">Week 4</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -226,7 +225,7 @@
                     <div class="col-md-4">
                       <!-- week 5 -->
                       <div class="weekBox">
-                        <h3>Week 5</h3>   
+                        <h3><a href="#week5" data-toggle="tab">Week 5</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -244,7 +243,7 @@
                     <div class="col-md-4">
                       <!-- week 6 -->
                       <div class="weekBox">
-                        <h3>Week 6</h3>   
+                        <h3><a href="#week6" data-toggle="tab">Week 6</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -262,7 +261,7 @@
                     <div class="col-md-4">
                       <!-- week 7 -->
                       <div class="weekBox">
-                        <h3>Week 7</h3>   
+                        <h3><a href="#week7" data-toggle="tab">Week 7</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -280,7 +279,7 @@
                     <div class="col-md-4">
                       <!-- week 8 -->
                       <div class="weekBox">
-                        <h3>Week 8</h3>   
+                        <h3><a href="#week8" data-toggle="tab">Week 8</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -298,7 +297,7 @@
                     <div class="col-md-4">
                       <!-- week 9 -->
                       <div class="weekBox">
-                        <h3>Week 9</h3>   
+                        <h3><a href="#week9" data-toggle="tab">Week 9</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -317,7 +316,7 @@
                     <div class="col-md-4">
                       <!-- week 10 -->
                       <div class="weekBox">
-                        <h3>Week 10</h3>   
+                        <h3><a href="#week10" data-toggle="tab">Week 10</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -335,7 +334,7 @@
                     <div class="col-md-4">
                       <!-- week 11 -->
                       <div class="weekBox">
-                        <h3>Week 11</h3>   
+                        <h3><a href="#week11" data-toggle="tab">Week 11</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -353,7 +352,7 @@
                     <div class="col-md-4">
                       <!-- week 12 - 16 -->
                       <div class="weekBox">
-                        <h3>Week 12 - 16</h3>   
+                        <h3><a href="#week12" data-toggle="tab">Week 12 - 16</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>

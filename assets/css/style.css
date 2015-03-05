@@ -113,7 +113,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #68dff0;
+    background: #ffd777;
     color: #fff;
     display: block;
 
@@ -174,7 +174,7 @@ a.logo {
     font-size: 20px;
     color: #ffffff;
     float: left;
-    margin-top: 15px;
+    margin-top: 17px;
     text-transform: uppercase;
 }
 

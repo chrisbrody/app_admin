@@ -12,28 +12,33 @@ Premium: http://www.gridgum.com
 /* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
-	background: #f2f2f2;
+    background: #f2f2f2;
     font-family: 'Ruda', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
-    font-size:13px;
+    font-size:16px;
 }
 
 ul li {
       list-style-type: circle;
 }
-
-a, a:hover, a:focus {
+a {
+    color: #1abc9c;
     text-decoration: none;
     outline: none;
 }
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color:#12846D;
+}
 ::selection {
 
-    background: #68dff0;
+    background: #1abc9c;
     color: #fff;
 }
 ::-moz-selection {
-    background: #68dff0;
+    background: #1abc9c;
     color: #fff;
 }
 
@@ -62,13 +67,18 @@ hr {
     height: 100%;
     position: fixed;
     background: #424a5d;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 
-#sidebar h5 a {
-	color: #f2f2f2;
-	font-weight: 700;
+#sidebar > h5 {
+    font-weight: 700;
     font-size: 1.5em;
+    margin-top: 75px;
+}
+#sidebar > h5 > a {
+    color: #f2f2f2;
+
 }
 
 #sidebar ul li {
@@ -82,7 +92,7 @@ hr {
 ul.sidebar-menu {
     margin: -2px 0 0;
     padding: 0;
-    margin-top: 75px;
+    
 }
 
 
@@ -106,21 +116,15 @@ ul.sidebar-menu li a{
     font-size: 12px;
     outline: none;
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #ffd777;
+    background: #1abc9c;
     color: #fff;
     display: block;
 
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -141,7 +145,8 @@ ul.sidebar-menu li a.active i {
 /* MAIN CONTENT CONFIGURATION */
 #main-content {
     margin-left: 210px;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
 }
 
 .header, .footer {
@@ -157,8 +162,8 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #ffd777;
-    border-bottom: 1px solid #c9aa5f;
+    background: #1abc9c;
+    border-bottom: 1px solid #1abc9c;
 }
 
 .wrapper {
@@ -201,6 +206,7 @@ a.logo:hover, a.logo:focus {
     cursor: pointer;
     display: inline-block;
     font-size: 20px;
+    color: white;
 }
 
 
@@ -220,14 +226,14 @@ a.logo:hover, a.logo:focus {
 
 /* MAIN CHART CONFIGURATION */
 .main-chart {
-	padding-top: 20px;
+    padding-top: 20px;
     padding-left: 0;
     padding-right: 0;
 }
 
 /*footer*/
 .site-footer {
-    background: #68dff0;
+    background: #1abc9c;
     color: #fff;
     padding: 10px 0;
     margin-top: 50px;
@@ -255,14 +261,14 @@ a.logo:hover, a.logo:focus {
     background-color: white;
     padding:5px;
     margin: 15px 0;
-    min-height: 200px;
+    min-height: 215px;
 }
 .weekBox > h3 {
     text-align: center;
     text-decoration: underline;
 }
 .weekBox > h3 > a{
-    color: #797979;
+    color: #555;
 }
 .weekBox ul {
     padding-left: 20px;
@@ -273,6 +279,10 @@ a.logo:hover, a.logo:focus {
 .classTime ol > li {
     padding-top:65px;
 }
+h1, h2, h3 {
+    color:#555555;
+    font-weight: 700;
+}
 .title p span {
     
 }
@@ -281,4 +291,21 @@ a.logo:hover, a.logo:focus {
     text-decoration: underline;
 }
 
+#introduceThese {
+    color: #555555;
+    text-decoration: underline;
+    font-size: 24px;
+    position: relative;
+    top: 30px;
+    right: 2%;
+}
+.linkage {
+    font-size: 24px;
+    text-decoration: underline;
+}
 
+@media screen and (max-width: 1320px) {
+    .weekBox {
+        min-height: 250px;
+    }
+}

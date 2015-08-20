@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="keyword" content="">
 
     <title>Codify Academy - Front End Teaching Manual</title>
 
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -27,12 +26,11 @@
 
   <body>
 
-  <section id="container" >
       <!-- **********************************************************************************************************************************************************
       TOP BAR CONTENT & NOTIFICATIONS
       *********************************************************************************************************************************************************** -->
       <!--header start-->
-      <header class="header navbar-inverse">
+      <header class="header black-bg">
         <div class="sidebar-toggle-box">
           <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>
@@ -48,80 +46,81 @@
       <!--sidebar start-->
       <div id="sidebar"  class="nav-collapse ">
         <!-- sidebar menu start-->
+        <h5 class="text-center">
+          <a href="#welcome" data-toggle="tab">Front End Development</a>
+        </h5>
         <ul class="sidebar-menu">
 
-      	  <h5 class="text-center">
-            <a href="#welcome" data-toggle="tab">Front End Development</a>
-          </h5>
+      	  
       	  	
           <li class="mt">
-            <a href="#week1" data-toggle="tab">
+            <a href="weeks/#week1" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 1</span>
             </a>
           </li>
           <li>
-            <a href="#week2" data-toggle="tab">
+            <a href="weeks/#week2" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 2</span>
             </a>
           </li>
           <li>
-            <a href="#week3" data-toggle="tab">
+            <a href="weeks/#week3" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 3</span>
             </a>
           </li>
           <li>
-            <a href="#week4" data-toggle="tab">
+            <a href="weeks/#week4" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 4</span>
             </a>
           </li>
           <li>
-            <a href="#week5" data-toggle="tab">
+            <a href="weeks/#week5" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 5</span>
             </a>
           </li>
           <li>
-            <a href="#week6" data-toggle="tab">
+            <a href="weeks/#week6" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 6</span>
             </a>
           </li>
           <li>
-            <a href="#week7" data-toggle="tab">
+            <a href="weeks/#week7" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 7</span>
             </a>
           </li>
           <li>
-            <a href="#week8" data-toggle="tab">
+            <a href="weeks/#week8" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 8</span>
             </a>
           </li>
           <li>
-            <a href="#week9" data-toggle="tab">
+            <a href="weeks/#week9" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 9</span>
             </a>
           </li>
           <li>
-            <a href="#week10" data-toggle="tab">
+            <a href="weeks/#week10" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 10</span>
             </a>
           </li>
           <li>
-            <a href="#week11" data-toggle="tab">
+            <a href="weeks/#week11" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 11</span>
             </a>
           </li>
           <li>
-            <a href="#week12" data-toggle="tab">
+            <a href="weeks/#week12" data-toggle="tab">
               <i class="fa fa-dashboard"></i>
               <span>Week 12 - 16</span>
             </a>
@@ -151,7 +150,7 @@
                     <div class="col-md-4">
                       <!-- week 1 -->
                       <div class="weekBox">
-                        <h3><a href="#week1" data-toggle="tab">Week 1</a></h3>   
+                        <h3><a href="weeks/#week1" data-toggle="tab">Week 1</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -170,7 +169,7 @@
                     <div class="col-md-4">
                       <!-- week 2 -->
                       <div class="weekBox">
-                        <h3><a href="#week2" data-toggle="tab">Week 2</a></h3>   
+                        <h3><a href="weeks/#week2" data-toggle="tab">Week 2</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -188,7 +187,7 @@
                     <div class="col-md-4">
                       <!-- week 3 -->
                       <div class="weekBox">
-                        <h3><a href="#week3" data-toggle="tab">Week 3</a></h3>   
+                        <h3><a href="weeks/#week3" data-toggle="tab">Week 3</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -207,7 +206,7 @@
                     <div class="col-md-4">
                       <!-- week 4 -->
                       <div class="weekBox">
-                        <h3><a href="#week4" data-toggle="tab">Week 4</a></h3>   
+                        <h3><a href="weeks/#week4" data-toggle="tab">Week 4</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -225,11 +224,11 @@
                     <div class="col-md-4">
                       <!-- week 5 -->
                       <div class="weekBox">
-                        <h3><a href="#week5" data-toggle="tab">Week 5</a></h3>   
+                        <h3><a href="weeks/#week5" data-toggle="tab">Week 5</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            Portfolio 1.0
+                            Replicate Bootstrap business theme 3-5 pages
                           </li>
                         </ul>
                         <h4>Learning:</h4>
@@ -243,17 +242,17 @@
                     <div class="col-md-4">
                       <!-- week 6 -->
                       <div class="weekBox">
-                        <h3><a href="#week6" data-toggle="tab">Week 6</a></h3>   
+                        <h3><a href="weeks/#week6" data-toggle="tab">Week 6</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            Theme/Website Week 1
+                            Replicate Bootstrap business theme 3-5 pages
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Head First - JavaScript Chap 1 - 3
+                            Learning Break
                           </li>
                         </ul>
                       </div>
@@ -261,17 +260,17 @@
                     <div class="col-md-4">
                       <!-- week 7 -->
                       <div class="weekBox">
-                        <h3><a href="#week7" data-toggle="tab">Week 7</a></h3>   
+                        <h3><a href="weeks/#week7" data-toggle="tab">Week 7</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            Theme/Website Week 2
+                            Complete creating 1 page portfolio for another person
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Head First - JavaScript Chap 4 - 6
+                             <a href="http://www.codecademy.com/en/tracks/jquery" target="_blank">Codecademy - Learn jQuery</a> - bonus resource <a href="http://gymnasium.aquent.com/course/102" target="_blank">Aquent Gym</a>
                           </li>
                         </ul>
                       </div>
@@ -279,17 +278,17 @@
                     <div class="col-md-4">
                       <!-- week 8 -->
                       <div class="weekBox">
-                        <h3><a href="#week8" data-toggle="tab">Week 8</a></h3>   
+                        <h3><a href="weeks/#week8" data-toggle="tab">Week 8</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            App/Website Group Week 1
+                            Begin building 1 page personal portfolio
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Head First - JavaScript Chap 7 - 9
+                            <a href="http://code.tutsplus.com/courses/30-days-to-learn-jquery" target="_blank">Tutsplus - learn jQuery in 30 days</a>
                           </li>
                         </ul>
                       </div>
@@ -297,18 +296,17 @@
                     <div class="col-md-4">
                       <!-- week 9 -->
                       <div class="weekBox">
-                        <h3><a href="#week9" data-toggle="tab">Week 9</a></h3>   
+                        <h3><a href="weeks/#week9" data-toggle="tab">Week 9</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            App/Website Group Week 2
+                            Finish building 1 page personal portfolio
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            <a href="http://www.codecademy.com/en/tracks/jquery" target="_blank">Codecademy jQuery</a> &amp; 
-                            <a href="http://gymnasium.aquent.com/course/102" target="_blank">Aquent Gymnasium</a>
+                            <a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Codecademy - JavaScript sections 1 - 4</a>
                           </li>
                         </ul>
                       </div>
@@ -316,17 +314,17 @@
                     <div class="col-md-4">
                       <!-- week 10 -->
                       <div class="weekBox">
-                        <h3><a href="#week10" data-toggle="tab">Week 10</a></h3>   
+                        <h3><a href="weeks/#week10" data-toggle="tab">Week 10</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            PSD intermediate replication 2.0
+                            PSD 2.0 &amp; Linkedin
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            <a href="http://www.code.tutsplus.com/courses/30-days-to-learn-jquery" target="_blank">Tutsplus - learn jQuery in 30 days</a>
+                            <a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Codecademy - JavaScript sections 5 - 8</a>
                           </li>
                         </ul>
                       </div>
@@ -334,17 +332,17 @@
                     <div class="col-md-4">
                       <!-- week 11 -->
                       <div class="weekBox">
-                        <h3><a href="#week11" data-toggle="tab">Week 11</a></h3>   
+                        <h3><a href="weeks/#week11" data-toggle="tab">Week 11</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
-                            Portfolio 2.0 &amp; other projects
+                            Frontend Group App/Website Project
                           </li>
                         </ul>
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Job Search Process
+                            Job Search Process &amp; Projects
                           </li>
                         </ul>
                       </div>
@@ -352,7 +350,7 @@
                     <div class="col-md-4">
                       <!-- week 12 - 16 -->
                       <div class="weekBox">
-                        <h3><a href="#week12" data-toggle="tab">Week 12 - 16</a></h3>   
+                        <h3><a href="weeks/#week12" data-toggle="tab">Week 12 - 16</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
                           <li>
@@ -362,7 +360,7 @@
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Job Search Process
+                            Job Search Process &amp; Projects
                           </li>
                         </ul>
                       </div>
@@ -372,47 +370,47 @@
                 
                 <div class="clearfix"></div>
                 <!-- WEEK 1 POWER CODING SESSION -->
-                <?php include('week01.php') ?>
+                <?php include('weeks/week01.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 2 POWER CODING SESSION -->
-                <?php include('week02.php') ?>
+                <?php include('weeks/week02.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 3 POWER CODING SESSION -->
-                <?php include('week03.php') ?>
+                <?php include('weeks/week03.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 4 POWER CODING SESSION -->
-                <?php include('week04.php') ?>
+                <?php include('weeks/week04.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 5 POWER CODING SESSION -->
-                <?php include('week05.php') ?>
+                <?php include('weeks/week05.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 6 POWER CODING SESSION -->
-                <?php include('week06.php') ?>
+                <?php include('weeks/week06.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 7 POWER CODING SESSION -->
-                <?php include('week07.php') ?>
+                <?php include('weeks/week07.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 8 POWER CODING SESSION -->
-                <?php include('week08.php') ?>
+                <?php include('weeks/week08.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 9 POWER CODING SESSION -->
-                <?php include('week09.php') ?>
+                <?php include('weeks/week09.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 10 POWER CODING SESSION -->
-                <?php include('week10.php') ?>
+                <?php include('weeks/week10.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 11 POWER CODING SESSION -->
-                <?php include('week11.php') ?>
+                <?php include('weeks/week11.php') ?>
                 <div class="clearfix"></div>
                 <!-- WEEK 12 -16 POWER CODING SESSION -->
-                <?php include('week12.php') ?>
+                <?php include('weeks/week12.php') ?>
               </div>
 
               <!--footer start-->
               <footer class="site-footer">
                 <div class="text-center">
-                  <?php echo date("Y") ?> - Codify Academy
-                  <a href="index.php#" class="go-top">
+                  &copy;<?php echo date("Y") ?> - Codify Academy
+                  <a href="#" class="go-top">
                     <i class="fa fa-angle-up"></i>
                   </a>
                 </div>
@@ -425,14 +423,13 @@
       <!--main content end-->
       
       <!--footer end-->
-  </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery-1.8.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- nice scroll -->
-    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
     <!--common script for all pages-->
     <script src="assets/js/common-scripts.js"></script>
 	
